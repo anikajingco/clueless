@@ -1,0 +1,390 @@
+* {box-sizing: border-box;}
+
+html, body {
+    font-size: 16px;
+    font-family: 'Chivo', sans-serif;
+    margin: 0rem;
+    background-image: url("bg.png");
+}
+
+/* text */
+h1 {
+    margin: 0rem;
+    font-size: 9rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    margin: 0rem;
+    font-size: 2.25rem;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 1.125rem;
+}
+
+/* main page */
+.navigation {
+    position: fixed;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem 1.5rem;
+    width: 1.5rem;
+    font-size: 24px;
+    line-height: 60px;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.nav-icon {
+    height: 1.3rem;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/* first "section" with the title */
+#heading {
+    padding-top: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.director {
+    position: absolute;
+    bottom: 12rem;
+}
+
+/* sections */
+.section {
+    height: 100vh;
+    position: relative;
+    margin-left: 3rem;
+}
+
+/* section one */
+.one-text {
+    margin-top: 15rem;
+}
+
+.cher-dee-office {
+    transform:rotate(-10deg);
+    position:absolute;
+    bottom: -2rem;
+    left: 3rem; 
+}
+
+.cher-dee {
+    transform:rotate(5deg);
+    position:absolute;
+    left:10rem;
+    bottom: -12rem;
+}
+
+.gum-pack {
+    transform:rotate(70deg);
+    position:absolute;
+    top:25rem;
+    right:6rem;
+}
+
+.gif {
+    position: absolute;
+    right: 0rem;
+    top: 3rem;
+}
+
+.scarf {
+    position: absolute;
+    right:0rem;
+    top:2rem;
+}
+
+/* section two */
+.love-letter {
+    position: absolute;
+    bottom:-5rem;
+    left:20rem;
+}
+
+.sunglasses {
+    position: absolute;
+    bottom:10rem;
+    left:0rem;
+}
+
+.mirror {
+    position:absolute;
+    bottom:-30rem;
+}
+
+.two-text {
+    padding-top: 8rem;
+    text-align: right;
+}
+
+.coffee {
+    position:absolute;
+    right:4rem;
+    bottom:-5rem;
+}
+
+/* section three */
+.gif-two {
+    position: absolute;
+    left: 7rem;
+    top: -2rem;
+}
+
+.tai-makeover {
+    position:absolute;
+    bottom:1rem;
+    left:15rem;
+}
+
+.nail-polish {
+    position:absolute;
+    bottom:-5rem;
+    left:5rem;
+}
+
+.three-text {
+    padding-top:10rem;
+}
+
+.hair-brush {
+    position:absolute;
+    right: 10rem;  
+}
+
+.headphones {
+    position:absolute;
+    right:0rem;
+    bottom:-30rem;
+}
+
+/* section four */
+.music {
+    position:absolute;
+    bottom:2rem;
+    left:0rem;
+}
+
+.gif-three {
+    position: absolute;
+    bottom: 2rem;
+    left:0rem;
+}
+
+.four-text {
+    text-align: center;
+    padding-top: 9rem;
+}
+
+.lipstick {
+    position: absolute;
+    right:25rem;
+    top:20rem;
+}
+
+.chocolate-box {
+    position: absolute;
+    right:10rem;
+    bottom:-25rem;
+}
+
+/* section five */
+.flowers {
+    position: absolute;
+    left:0rem;
+    top:-2rem;
+}
+
+.recepit {
+    position:absolute;
+    top:8rem;
+    left:0rem;
+}
+
+.five-text {
+    margin-top: 30rem;
+}
+
+.xtian {
+    position:absolute;
+    right: 10rem;
+    bottom: -5rem;
+}
+
+.xtian-cher {
+    position:absolute;
+    right:5rem;
+    bottom:-10rem;
+}
+
+/* section six */
+/* LEGAL DOCS for seven */
+.legal-docs {
+    position: absolute;
+    bottom: -40rem;
+    left: 0rem;
+}
+
+.diary {
+    position: absolute;
+    bottom:-5rem;
+    left:0rem;
+}
+
+.pen {
+    position: absolute;
+    right: 0rem;
+    bottom: -12rem;
+}
+
+/* section seven */
+.seven-text {
+    margin-top: 15rem;
+}
+
+.nametag {
+    position: absolute;
+    right: 0rem;
+    bottom: 10rem;
+}
+
+/* section eight */
+.eight-text {
+    margin-top: 5rem;
+}
+
+.invitation {
+    position: absolute;
+    left:0rem;
+    bottom:0rem;
+}
+
+.wedding {
+    position: absolute;
+    left: 22rem;
+    bottom: 4rem;
+}
+
+.bouquet {
+    position: absolute;
+    right:0rem;
+    bottom:0rem;
+}
+
+/* overlap photos */
+.pictures {
+    display: flex;
+    flex-direction: start;
+}
+
+/* character and setting pages */
+.page-header {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    display: flex;
+    left: 3rem;
+}
+
+.page-icon {
+    height: 2rem;
+}
+
+.polaroid {
+   width: 100%;
+   margin-bottom: 1rem;
+}
+
+/* transformations */
+.cher {
+    transform: rotate(-4deg);
+}
+
+.dionne {
+    transform: rotate(6deg);
+}
+
+.tai {
+    transform: rotate(-2deg);
+}
+
+.josh {
+    transform: rotate(8deg);
+}
+
+.christian {
+    transform: rotate(10deg);
+}
+
+.murray {
+    transform: rotate(-4deg);
+}
+
+.elton {
+    transform: rotate(-2deg);
+}
+
+.amber {
+    transform: rotate(5deg);
+}
+
+.tavis {
+    transform: rotate(2deg);
+}
+
+/* popups */
+/* the modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* modal content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 55%;
+    height: 90%;
+    display: flex;
+    position: relative;
+  }
+
+  .modal-text {
+    font-size: 0.9rem;
+    position: absolute;
+    bottom: 1rem;
+    left: 23rem;
+    width: 20rem;
+  }
+
+.popup-image {
+    position: absolute;
+    height: 29rem;
+    border: 1px solid black;
+    bottom: 1rem;
+}
+  
